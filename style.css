@@ -25,13 +25,13 @@
 }
 
 .main-header {
-    margin-top: 2rem;
+    margin-top: 7vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap:0.6rem;
     font-family: 'COCOGOOSE', sans-serif;
-    margin-bottom: 3rem;
+    margin-bottom: 8vh;
 }
 
 .main-header h2 {
@@ -96,8 +96,8 @@
 .program-container {
     margin:4vw;
     display: grid;
-    grid-template-rows: repeat(5, 8vh);
-    gap:4vw;
+    grid-template-rows: repeat(5, 7vh);
+    gap:4vh;
 
 }
 
@@ -201,4 +201,188 @@
     font-size: 2.4vw;
 
 }
+
+/* about us mobile  */
+.topic-about {
+    background-image: url(images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:1rem;
+}
+
+.topic-about .fa {
+    font-size: xx-large;
+}
+
+.topic-about .main-header {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.topic-about .main-header p {
+    margin-top: 6vw;
+    border: 2px solid var(--secondary);
+    box-shadow: 2px var(--tertiary);
+    font-size: 3.3vw;
+    background-color: white;
+    padding: 3vw;
+    margin-bottom: 0;
+}
+
+.topic-about span {
+   font-size: 3.3vw;
+   line-height: 5vw;
+}
+
+.topic-about .main-header h1 {
+    background: none;
+    color:var(--primary)
+}
+
+.about-intro {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 4vh;
+   margin-bottom: 6vh;
+   padding: 0 14vw;
+   text-align: center;
+}
+
+.about-intro h2 {
+    white-space: pre-line;
+    font-size:5vw;
+}
+
+.about-intro p {
+    margin-top: 2vh;
+    font-size: 3.6vw;
+}
+
+.event {
+    display: flex;
+    border: 2.5px solid var(--secondary);
+    justify-content: center;
+    margin: 0 7vw 4vh 7vw;
+    padding: 3vh auto;
+    height:18vh;
+    align-items: center;
+    gap:1vw;
+}
+
+.event .logo img {
+   height:7vh;
+}
+
+.brand .brand-header {
+    white-space: pre-line;
+    font-size: 8vw;
+    font-family: 'COCOGOOSE', sans-serif;
+    line-height: 7vw;
+}
+
+.brand .event-details {
+    font-size: 2vw;
+    border-top: 1px solid var(--tertiary);
+    border-bottom: 1px solid var(--tertiary);
+    color: var(--tertiary);
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.past {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid var(--secondary);
+    box-shadow: 2px var(--secondary);
+    padding:8vw;
+    text-align: center;
+}
+
+.past h2 {
+    font-size: 5vw;
+}
+
+.past p {
+    font-size: 4vw;
+    margin-top: 3vw;
+}
+
+.past .past-container {
+    display: flex;
+    flex-direction: column;
+    gap:3vw;
+    width:100%;
+    margin: 7vw;
+
+
+}
+
+.past-container .past-img {
+    position: relative;
+    flex-basis: 50%;
+    overflow: hidden; 
+}
+
+.past-img img {
+    width:100%;
+    display: block;
+}
+
+.past-img .layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+
+  .layer .layer-up {
+    width: 100%;
+    color: #fff;
+    left: 50%;
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .past-img .layer:hover {
+    background: rgba(226, 0, 0, 0.4);
+  }
+
+  .layer:hover .layer-up {
+    bottom: 49%;
+    opacity: 1;
+  }
+
+.part-col {
+    flex-basis:35%;
+    position: relative;
+    overflow: hidden;
+}
+
+.part-col img {
+    width:100%;
+    display: block;
+}
+
+.log {
+    display: flex;
+    align-items: center;
+}
+
+.log img {
+    height: 5vh;
+    display: block;
+}
+
+
 
