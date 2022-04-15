@@ -391,10 +391,61 @@
     display: block;
 }
 
-header,
+header .upper-bar,
 .topic-about .hori,
 .about-intro span{
     display: none; 
+}
+
+header {
+    display: block;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100vh;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: ;
+    justify-content: space-between;
+    padding: 0.5vw 12vw;
+    overflow: hidden;
+    position: relative;
+}
+
+nav .logo-menu {
+    display: flex;
+    box-shadow: 2px var(--secondary);
+    border:2px solid white;
+    align-items: center;
+}
+
+nav .logo-menu img {
+    height: 7vh;
+    display: block;
+}
+
+nav .logo-menu h3 {
+    font-size: 1.4vw;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 4vw;
+}
+
+nav .campaign {
+    color:var(--primary);
+    border: 5px solid var(--primary);
+    padding: 0.5vw 1vw;
+    font-size: 1.4vw;
 }
 
 @media (min-width: 786px){
@@ -742,7 +793,12 @@ header,
     .footer-col p {
         font-size: 1.5vw;
     }
-    
+
+    .log img {
+        height: 7vh;
+        display: block;
+        background-color: white;
+    }
     
     
 }
