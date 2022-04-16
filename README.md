@@ -5,6 +5,14 @@
 
 > This project describes the use of HTML, CSS and Javascript. 
 
+> Attached is the snapshot of the website. 
+
+![image](https://user-images.githubusercontent.com/61356487/163670302-9248d88a-b999-4837-9ae9-30100441f5fc.png)
+
+![image](https://user-images.githubusercontent.com/61356487/163670351-f85e1bcf-d30b-4b24-8064-54d967904d19.png)
+
+
+
 
 ## Built With
 
