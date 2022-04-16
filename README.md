@@ -44,6 +44,11 @@ Setup
 
 >Give a ⭐️ if you like this project!
 
+## Acknowledgement
+
+>Strongly acknowledge Cindy Shin whose design was used to create the project
+>Greatful to @microverseinc for putting this project together
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
