@@ -16,33 +16,36 @@
     <header>
         <div class="upper-bar">
             <ul>
-                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                <li>English</li>
-                <li>My page</li>
-                <li>Logout</li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">My page</a></li>
+                <li><a href="#">Logout</a></li>
                 
             </ul>
         </div>
         <nav>
             <div class="logo-menu">
+                <a href="/index.html">
                 <img src="images/fashion.png" alt="fashion">
                 <h3>Fashion Show <br> Conference</h3>
+                </a>
             </div>
             <ul>
-                <li>About</li>
-                <li>Program</li>
-                <li>Sponsor</li>
-                <li>Join</li>
-                <li>News</li>
-                <li class="campaign">CC Campaign</li>
+                <li id="link"><a href="./about.html">About</a></li>
+                <li><a href="#">Program </a></li>
+                <li><a href="#">Sponsor </a></li>
+                <li><a href="#">Join </a></li>
+                <li><a href="#">News</a></li>
+                <li class="campaign"><a href="#"> CC Campaign</a></li>
             </ul>
         </nav>
 
     </header>
    <main>
     <section class="topic-about">
-    <i class="fa fa-bars" aria-hidden="true"></i>
+    <div id="menu-bar"></div>
+    <i id="menubar" class="fa fa-bars" aria-hidden="true"></i>
     <div class="main-header">
         <h2>"Hello Fashion world"</h2>
         <h1>FASHION CURATORS <br>
@@ -120,8 +123,7 @@
                 </div>
             </div>
         </section>
-
-        <section class="partners">
+        <section class="about-partners">
             <h2>Partner</h2>
             <hr class="hori">
             <div class="part-logo">
@@ -142,11 +144,12 @@
                 </div>
             </div>
         </section>
+        
         <footer>
-            <div class="footer-row">
+            <div class="about-footer-row">
             <div class="footer-col log">
             <img src="images/fashion.png" alt="runway">
-            <h3>Art Show <br> Conference</h3>
+            <h3>Fashion Show <br> Conference</h3>
             </div>
             <div class="footer-col">
                 <p>2022 Lagos Art Show Conference <br> Some Right Reserved
@@ -159,5 +162,6 @@
 
     </div>
    </main> 
+   <script src="./script.js"> </script>
 </body>
 </html>

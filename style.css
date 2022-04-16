@@ -22,6 +22,7 @@
 
 .topic .fa {
     font-size: xx-large;
+    cursor: pointer;
 }
 
 .main-header {
@@ -152,6 +153,8 @@
     flex-direction: column;
     padding-top:8vw;
     padding-bottom: 8vw;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .speakers h2 {
@@ -168,11 +171,76 @@
     font-size: 5vw;
     font-weight: 400;
     color: var(--tertiary);
+    cursor: pointer;
 }
 
 .more .fa {
     color: var(--primary);
 }
+
+.speaker-container {
+    display: grid;
+    margin-top: 3vw;
+    gap: 8vw;
+}
+
+.speaker-img {
+    display: flex;
+
+}
+
+.speaker-img .checker {
+    height: 10vw;
+    width: 10vw;
+    position: relative;
+    top:0;
+    left:0;
+
+}
+
+.speaker-img .pro {
+    height: 20vw;
+    width: 20vw;
+    position: relative;
+    top: 2.5vw;
+    left: -5vw;
+}
+
+.speaker-row {
+    display: flex;
+    gap: 0;
+    height: 100%;
+}
+
+.speaker-dec {
+    text-align: left;
+}
+
+.speaker-dec h3 {
+    font-size: 3.5vw;
+    color:var(--tertiary);
+}
+
+.speaker-dec i {
+    font-style: italic;
+    font-size: 2.5vw;
+    color: var(--primary);
+    font-weight: 600;
+    margin: 2vw 0;
+    line-height: 0.5vw;
+}
+
+.speaker-dec .hor {
+    width: 10%;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-color: var(--secondary);
+}
+
+.speaker-dec p {
+    font-size: 2vw;
+}
+
 
 .partners {
     background-color: var(--tertiary);
@@ -200,9 +268,10 @@
     font-size: 2.4vw;
 }
 
-.speaker-container {
-    display: none;
+.topic-about .fa {
+    cursor: pointer;
 }
+
 
 /* about us mobile  */
 .topic-about {
@@ -391,6 +460,22 @@
     display: block;
 }
 
+.about-partners {
+    background-color: var(--tertiary);
+    padding: 7vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.about-footer-row {
+    padding: 7vw;
+    display: flex;
+    align-items: center;
+    gap:4vw;
+}
+
 
 .menu-bar,
 header,
@@ -407,6 +492,11 @@ header,
 
 
 @media (min-width: 786px){
+
+    a {
+      text-decoration: none;
+      color: var(--tertiary);
+    }
     header {
         display: block;
         
@@ -427,7 +517,12 @@ header,
 
     header .upper-bar ul li {
         text-decoration: none;
-        margin-left:1.6vw;    
+        margin-left:1.6vw; 
+        cursor:pointer;   
+    }
+
+    header .upper-bar ul li a {
+        color: white;
     }
 
     nav {
@@ -443,6 +538,7 @@ header,
         box-shadow: 2px var(--secondary);
         border:2px solid white;
         align-items: center;
+        cursor: pointer;
     }
 
     nav .logo-menu img {
@@ -451,7 +547,7 @@ header,
     }
 
     nav .logo-menu h3 {
-        font-size: 1.4vw;
+        font-size: 1.2vw;
     }
 
     nav ul {
@@ -462,6 +558,7 @@ header,
 
     nav ul li {
         margin-left: 4vw;
+        cursor: pointer;
     }
 
     nav .campaign {
@@ -657,7 +754,7 @@ header,
     }
 
     .topic-about .main-header p {
-         font-size: 1vw;
+         font-size: 1.4vw;
          line-height: 2vw;
          padding: 3vw;
     }
@@ -666,8 +763,7 @@ header,
         display: block;
     }
 
-    .topic-about .main-header h2,
-    .partners {
+    .topic-about .main-header h2{
         display: none;
     }
 
@@ -744,19 +840,28 @@ header,
         display: block;
     }
 
-    footer {
+    .about-footer-row {
         background-color: var(--tertiary);
         color:white;
+        display: flex;
+        padding-top: 7vw;
+        padding-bottom: 7vw;
+        display: flex;
     }
 
-    .footer-col p {
-        font-size: 1.5vw;
+    .about-footer-row .footer-col p {
+        font-size: 2vw;
     }
+    
 
     .log img {
         height: 7vh;
         display: block;
         background-color: white;
+    }
+
+    .about-partners {
+        display: none;
     }
     
     
