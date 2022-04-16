@@ -1,9 +1,9 @@
-# Conference Webpage
+# Microverse Capstone Project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project
+# Fashion Show Conference website
 
-> This project delineates the development of my Portfolio.
+> This project describes the use of HTML, CSS and Javascript. 
 
 
 ## Built With
@@ -14,7 +14,11 @@
 
 ## Live Demo
 
-> You can access the live version by clicking [here]()
+> You can access the live version by clicking [here](https://v0pe.github.io/Conference-Capstone-/)
+
+## Video Recording 
+
+> The video recording can be accessed [here](https://www.loom.com/share/7b71647e52b245e29fbbc9ee4f2f04ff)
 
 
 ## Getting Started
@@ -47,6 +51,7 @@ Setup
 ## Acknowledgement
 
 >Strongly acknowledge Cindy Shin whose design was used to create the project
+
 >Greatful to @microverseinc for putting this project together
 
 ## 📝 License
