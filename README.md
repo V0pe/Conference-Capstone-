@@ -1,3 +1,4 @@
+
 # Microverse Capstone Project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
@@ -13,6 +14,14 @@
 
 
 
+# Conference Webpage
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Capstone Project
+
+> This project delineates the development of my Portfolio.
+
+
 
 ## Built With
 
@@ -22,11 +31,13 @@
 
 ## Live Demo
 
+
 > You can access the live version by clicking [here](https://v0pe.github.io/Conference-Capstone-/)
 
 ## Video Recording 
 
 > The video recording can be accessed [here](https://www.loom.com/share/7b71647e52b245e29fbbc9ee4f2f04ff)
+
 
 
 ## Getting Started
@@ -56,11 +67,13 @@ Setup
 
 >Give a ⭐️ if you like this project!
 
+<
 ## Acknowledgement
 
 >Strongly acknowledge Cindy Shin whose design was used to create the project
 
 >Greatful to @microverseinc for putting this project together
+
 
 ## 📝 License
 
